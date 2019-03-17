@@ -32,3 +32,8 @@ To configure social login https://access.redhat.com/documentation/en-us/red_hat_
 For Google : https://developers.google.com/identity/protocols/OpenIDConnect https://console.developers.google.com/apis/dashboard?project=calories-186017&duration=PT1H
 
 
+#Environment
+
+export PATH=/d/pierre/Java/jdk-11.0.2/bin:$PATH
+
+export JAVA_HOME="D:\pierre\Java\jdk-11.0.2"

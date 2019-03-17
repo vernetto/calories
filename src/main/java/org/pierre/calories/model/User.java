@@ -1,9 +1,7 @@
 package org.pierre.calories.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class User {
@@ -12,6 +10,9 @@ public class User {
     Long id;
 
     String name;
+
+    @OneToMany(mappedBy = "user")
+    List<Meal> meals;
 
     public User() {
     }

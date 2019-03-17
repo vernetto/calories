@@ -24,3 +24,11 @@ GRANT ALL PRIVILEGES ON calories.* TO 'calories'@'localhost' IDENTIFIED BY 'calo
 
 drop user 'calories'@'localhost';
 
+
+#Security
+
+To configure social login https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.0/html/server_administration_guide/identity_broker http://www.keycloak.org/docs/latest/server_admin/index.html#_identity_broker
+
+For Google : https://developers.google.com/identity/protocols/OpenIDConnect https://console.developers.google.com/apis/dashboard?project=calories-186017&duration=PT1H
+
+

@@ -23,7 +23,7 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
-#navigates to http://localhost:8080/h2-console
+#navigates to http://localhost:8080/h2-console login to jdbc:h2:mem:caloriesdb calories/calories
   h2:
     console:
       enabled: true

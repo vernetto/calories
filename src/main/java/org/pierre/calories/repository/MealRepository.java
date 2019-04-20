@@ -6,7 +6,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.stereotype.Repository;
 
 // https://www.baeldung.com/spring-data-rest-intro
-@RepositoryRestResource
+@RepositoryRestResource(collectionResourceRel = "meal", path = "meal")
 @Repository
 public interface MealRepository extends CrudRepository<Meal, Long> {
 

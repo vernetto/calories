@@ -15,8 +15,8 @@
     <description>Calories consumption management</description>
 
     <properties>
-        <java.version>11</java.version>
-        <java.version>11</java.version>
+        <java.version>8</java.version>
+        <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
@@ -92,7 +92,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-                    <release>${java.version}</release>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
                 <dependencies>
                     <dependency>

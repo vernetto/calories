@@ -10,6 +10,8 @@
 #    hibernate:
 #      ddl-auto: update
 
+
+# https://www.baeldung.com/spring-boot-h2-database
 spring:
   datasource:
     driver-class-name: org.h2.Driver
@@ -21,7 +23,14 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
-
+#navigates to http://localhost:8080/h2-console
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
 
 server:
   port: 8090

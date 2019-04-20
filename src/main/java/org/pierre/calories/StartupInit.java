@@ -31,6 +31,7 @@ public class StartupInit {
             String dateString = format.format( new Date() );
             Meal meal = new Meal(user, dateString, "cake", 300);
             mealRepository.save(meal);
+            System.out.println("populateUsers END");
         };
     }
 }

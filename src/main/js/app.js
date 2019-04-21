@@ -12,6 +12,7 @@ class App extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {employees: []};
+		// 	this.state = {employees: [ {firstName: 'pippo1', lastName: "pluto1", description : "puppo1"}, {firstName: 'pippo2', lastName: "pluto2", description : "puppo2"}]};
 	}
 
 	componentDidMount() {
